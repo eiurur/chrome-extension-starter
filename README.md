@@ -1,5 +1,4 @@
-Chrome Extension Starter
-=====
+# Chrome Extension Starter
 
 ## Usage
 
@@ -10,9 +9,9 @@ Chrome Extension Starter
 
 ## Features
 
-- [x] Webpack 3 + gulp
-- [x] Babel 6
-- [x] SASS (node-sass)
-- [x] pug
-- [x] zip
-- [ ] deploy
+* [x] Webpack v4 + gulp v3.9
+* [x] Babel 6
+* [x] SASS (node-sass)
+* [x] pug
+* [x] zip
+* [ ] deploy
