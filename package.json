@@ -27,10 +27,10 @@
     "gulp-open": "^3.0.0",
     "gulp-pleeease": "^2.0.2",
     "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^3.2.0",
+    "gulp-pug": "^4.0.1",
     "gulp-remember": "^1.0.1",
     "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.5.0",
     "gulp-strip-debug": "^3.0.0",
     "gulp-uglify": "^3.0.0",
@@ -46,7 +46,8 @@
   },
   "scripts": {
     "setup": "npm i && npm run build",
-    "start": "concurrently \"gulp\" \"webpack --progress --colors --watch\"",
+    "start":
+      "concurrently \"gulp\" \"webpack --mode development --progress --colors --watch\"",
     "build": "gulp build && webpack -p ",
     "zip": "gulp zip",
     "version:remain": "npm run build && npm run zip",
