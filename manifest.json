@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "chrome-extension-starter",
   "description": "yay",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "permissions": [
     "tabs",
     "storage",
@@ -12,7 +12,7 @@
   ],
   "content_scripts": [{
     "matches": [
-      "https://komiflo.com/comics/*"
+      "https://www.google.com/*"
     ],
     "js": [
       "build/js/contents.bundle.js"
