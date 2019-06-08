@@ -2,28 +2,16 @@
   "manifest_version": 2,
   "name": "chrome-extension-starter",
   "description": "yay",
-  "version": "0.1.1",
-  "permissions": [
-    "tabs",
-    "storage",
-    "notifications",
-    "http://*/*",
-    "https://*/*"
-  ],
+  "version": "0.1.2",
+  "permissions": ["tabs", "storage", "notifications", "http://*/*", "https://*/*"],
   "content_scripts": [{
-    "matches": [
-      "https://www.google.com/*"
-    ],
-    "js": [
-      "build/js/contents.bundle.js"
-    ],
+    "matches": ["https://www.google.com/*"],
+    "js": ["build/js/contents.bundle.js"],
     "run_at": "document_end"
   }],
   "background": {
     "persistent": false,
-    "scripts": [
-      "build/js/background.bundle.js"
-    ]
+    "scripts": ["build/js/background.bundle.js"]
   },
   "options_page": "build/views/options.html",
   "icons": {
