@@ -9,9 +9,9 @@
 
 ## Features
 
-* [x] Webpack v4 + gulp v3.9
-* [x] Babel 6
-* [x] SASS (node-sass)
-* [x] pug
-* [x] zip
-* [ ] deploy
+- [x] Webpack v4 + gulp v4
+- [x] Babel 6
+- [x] SASS (node-sass)
+- [x] pug
+- [x] zip
+- [ ] deploy
