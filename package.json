@@ -47,7 +47,9 @@
   },
   "scripts": {
     "setup": "npm i && npm run build",
+    "update:dep": "npx ncu -u && npm i && npm audit fix",
     "start": "concurrently \"gulp\" \"webpack --mode development --progress --colors --watch\"",
+    "dev": "npm start",
     "build": "gulp build && webpack -p ",
     "zip": "gulp zip",
     "version:remain": "npm run build && gulp zip",
