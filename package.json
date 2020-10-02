@@ -43,7 +43,7 @@
     "vinyl-source-stream": "^2.0.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "yargs": "^15.4.1"
+    "yargs": "^16.0.3"
   },
   "scripts": {
     "setup": "npm i && npm run build",
