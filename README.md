@@ -1,5 +1,9 @@
 # Chrome Extension Starter
 
+## Status
+
+![Node.js CI](https://github.com/eiurur/chrome-extension-starter/workflows/Node.js%20CI/badge.svg?branch=master)
+
 ## Usage
 
     git clone https://github.com/eiurur/chrome-extension-starter <project-name>
