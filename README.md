@@ -9,8 +9,8 @@
 
 ## Features
 
-- [x] Webpack v4 + gulp v4
-- [x] Babel 6
+- [x] Webpack v5 + gulp v4
+- [x] Babel 7
 - [x] SASS (node-sass)
 - [x] pug
 - [x] zip
