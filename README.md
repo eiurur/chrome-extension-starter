@@ -15,7 +15,7 @@
 
 - [x] manifest v3
 - [x] Webpack v5 + gulp v4
-- [x] SASS (node-sass)
+- [x] SASS (dart-sass)
 - [x] pug
 - [x] zip
 - [ ] deploy
