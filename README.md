@@ -13,8 +13,8 @@
 
 ## Features
 
+- [x] manifest v3
 - [x] Webpack v5 + gulp v4
-- [x] Babel 7
 - [x] SASS (node-sass)
 - [x] pug
 - [x] zip
